@@ -24,4 +24,4 @@ Your changed files will be moved down below Staged Changes
 Put your name into the Commit message along with short description what was changed
 (just for knowing whats going on) and click Commit to main
 
-Than righclick on Fetch and click Push
+Than righ-click on Fetch/Push and click Push
