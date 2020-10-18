@@ -1,10 +1,27 @@
 # BedTimeProd
 
 
-Example1
 
-testtest
+User guide:
 
-this example on how to use it
 
-click ctrl+s to save changes
+Whenever you come in pull the data in order to get most updated version
+
+to do so right click on Fetch(bottom right corner is the location) and choose Pull
+
+Now you have most recent version of the documents so you can start editing
+
+When you edit something you need to push that change to Repository
+
+In order to that press ctrl+s in folder that you edited than click on Git(location bottom right)
+and there you should be able to see your saved file
+
+After that in the top left corner above your files and next to "Unstaged Changes" youll see
+Stage All button click on it.
+
+Your changed files will be moved down below Staged Changes
+
+Put your name into the Commit message along with short description what was changed
+(just for knowing whats going on) and click Commit to main
+
+Than righclick on Fetch and click Push
