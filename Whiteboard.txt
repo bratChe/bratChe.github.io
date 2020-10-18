@@ -4,3 +4,7 @@
 Example1
 
 testtest
+
+this example on how to use it
+
+click ctrl+s to save changes
