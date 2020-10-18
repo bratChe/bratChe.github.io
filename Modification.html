@@ -6,7 +6,7 @@ $(document).ready(function(){
   $("#navLinks").click(function(){
     alert("The page is in work in progress phase! Coming soon");
   },
-  ); 
+  );
 });
 </script>
 <head>
@@ -23,12 +23,12 @@ header {
   text-align: left;
   font-size: 35px;
   color: white;
-  
+
 }
 nav {
-  
+
   float:none;
- 
+
   height: 20px; /* only for demonstration, should be removed */
   background: black;
   padding: 25px;
@@ -36,12 +36,12 @@ nav {
  #logo
     {
      align-self: flex-start;
-     max-width:10%;   
+     max-width:10%;
      height:auto;
-    } 
+    }
     #pheader
     {
-     
+
      float:left;
     }
 #mission_statement{
@@ -61,7 +61,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
- 
+
 }
 li {
   float: right;
@@ -78,31 +78,31 @@ li a {
 }
 
  section{
-    
+
   opacity: 0.8;
-    
+
   background-color: darkblue;
   padding: 10%;
   text-align: left;
-  color: white; 
+  color: white;
     }
 
   article {
   text-align: left;
   float: left;
   opacity: 1;
-     
+
   background-color:black;
   padding: 12%;
-  color: white; 
+  color: white;
   text-align: start;
-  
+
   section:after {
   content: "";
   display: table;
   clear: both;
-   }   
-     
+   }
+
     }
 
   footer {
@@ -112,7 +112,7 @@ li a {
   text-align: center;
   color: white;
   opacity: 1;
-}     
+}
 .flex-container {
   display: flex;
   opacity: 1;
@@ -125,7 +125,7 @@ li a {
   padding: 200px;
   font-size: 30px;
    width: 100%;
-  
+
 }
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -183,12 +183,12 @@ img {vertical-align: bottom;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -201,53 +201,54 @@ img {vertical-align: bottom;}
     width: 100%;
     height: auto;
   }
-   
+
 }
 </style>
 </head>
 <body>
   <header>
         <img id="logo" src="Logo1.1.png" >
-        
+
   </header>
   <nav>
     <ul id="navLinks" >
       <li ><a href="#">Contact</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Home</a></li>
-      
-      
     </ul>
+
+    <ul id="navHexidecimal">
+        <li><a href="#">Hexidecimal</a></li>
   </nav>
-   
-   <img id="pheader" src="BedTime%20Production1.png"> 
-    
-  <section> 
-   
-   <p id="mission_statement"><strong>Count on us for great innovations  and originality of designs and trends.</strong> </p> 
+
+   <img id="pheader" src="BedTime%20Production1.png">
+
+  <section>
+
+   <p id="mission_statement"><strong>Count on us for great innovations  and originality of designs and trends.</strong> </p>
    <div class="flex-container">
 
-       
+
   <div>
       <div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  
+
   <div class="text">PHONE NUMBER<br><br>1(333) 567-4568<br>
    </div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-    
+
   <div class="text">Adress<br>BedTime Production<br>
       123 Example Street<br>St Charles,MO 12345<br></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-    
+
   <div class="text">Email<br>business@bedatime.prod</div>
 </div>
 
@@ -255,22 +256,22 @@ img {vertical-align: bottom;}
 <br>
 
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
 </div>
-    
-  
-</div> 
-  
-  
+
+
+</div>
+
+
   </section>
   <footer>
   <p>Footer</p>
 </footer>
-    
-    
+
+
 
 <script>
 var slideIndex = 0;
@@ -281,20 +282,20 @@ function showSlides() {
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1}
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 </script>
-    
-    
+
+
 </body></html>
 
 <!--Works Cited-->
