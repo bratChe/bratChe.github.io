@@ -4698,7 +4698,7 @@ table.hover tr:nth-of-type(even):hover {
 
 .thumbnail {
 
-    
+    float:right;
     display: inline-block;
     line-height: 0;
     max-width: 100%;
