@@ -3689,6 +3689,9 @@ select[multiple] {
     padding-top: 0;
 }
 
+.backgroundc {
+  background-color: grey;
+}
 .label {
     display: inline-block;
     padding: 0.33333rem 0.5rem;
@@ -4753,6 +4756,10 @@ table.hover tr:nth-of-type(even):hover {
     display: inline-block;
 }
 
+.container
+{
+  margin: 0,0,0,0;
+}
 .menu-icon.dark {
     position: relative;
     display: inline-block;
